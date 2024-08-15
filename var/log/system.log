@@ -1,0 +1,24 @@
+[2024-08-14T11:24:39.588882+00:00] main.ERROR: Parameter validation failed
+#0 /Users/hopee/Desktop/project-community-edition/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 /Users/hopee/Desktop/project-community-edition/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /Users/hopee/Desktop/project-community-edition/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/hopee/Desktop/project-community-edition/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/hopee/Desktop/project-community-edition/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/hopee/Desktop/project-community-edition/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-08-14T11:26:38.798718+00:00] main.ERROR: Parameter validation failed
+#0 /Users/hopee/Desktop/project-community-edition/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 /Users/hopee/Desktop/project-community-edition/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /Users/hopee/Desktop/project-community-edition/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/hopee/Desktop/project-community-edition/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/hopee/Desktop/project-community-edition/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/hopee/Desktop/project-community-edition/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-08-14T11:27:55.053644+00:00] main.ERROR: Parameter validation failed
+#0 /Users/hopee/Desktop/project-community-edition/vendor/symfony/console/Command/Command.php(292): Magento\Setup\Console\Command\InstallCommand->initialize(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#1 /Users/hopee/Desktop/project-community-edition/vendor/symfony/console/Application.php(1078): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /Users/hopee/Desktop/project-community-edition/vendor/symfony/console/Application.php(324): Symfony\Component\Console\Application->doRunCommand(Object(Magento\Setup\Console\Command\InstallCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/hopee/Desktop/project-community-edition/vendor/magento/framework/Console/Cli.php(118): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/hopee/Desktop/project-community-edition/vendor/symfony/console/Application.php(175): Magento\Framework\Console\Cli->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/hopee/Desktop/project-community-edition/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
