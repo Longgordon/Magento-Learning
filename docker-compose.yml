@@ -29,9 +29,6 @@ services:
       - ELASTICSEARCH_PORT_NUMBER=9200
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
       - ALLOW_EMPTY_PASSWORD=yes
-      - MAGENTO_USERNAME=LongPhan
-      - MAGENTO_PASSWORD=123456
-      - MAGENTO_EMAIL=longpp@hopee.com.vn
     volumes:
       - 'magento_data:/bitnami/magento'
     depends_on:
